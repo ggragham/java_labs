@@ -6,8 +6,8 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 The workspace contains two folders by default, where:
 
-- `lab_*`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `lab_*/src`: the folder to maintain sources
+- `lab_*/lib`: the folder to maintain dependencies
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
