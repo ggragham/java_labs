@@ -1,11 +1,13 @@
 {
     "java.project.sourcePaths": [
         "lab_1/src",
-        "lab_2/src"
+        "lab_2/src",
+        "lab_3/src"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lab_1/lib/**/*.jar",
-        "lab_2/lib/**/*.jar"
+        "lab_2/lib/**/*.jar",
+        "lab_3/lib/**/*.jar"
     ]
 }
