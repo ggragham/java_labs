@@ -8,8 +8,13 @@ import org.springframework.ui.Model;
 public class WebController {
     @RequestMapping(value = "/index")
     public String index(Model model) {
-        model.addAttribute("variable1", "First Variable");
-        model.addAttribute("variable2", "Second Variable");
+        String[] board = {
+            "X", "O", "-",
+            "O", "X", "-",
+            "-", "-", "X"
+        };
+        
+        model.addAttribute("board", board);
         return "index";
     }
 }

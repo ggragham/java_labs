@@ -3,15 +3,28 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Variable</title>
+    <title>Хрестики-нолики</title>
 </head>
 
 <body>
-    <h1>Variables</h1>
-    <h4>${variable1}</h4>
-    <span th:utext="${variable1}"></span>
-    <h4>${variable2}</h4>
-    <span th:utext="${variable2}"></span>
+    <h1>Хрестики-нолики</h1>
+    <table>
+        <tr>
+            <td th:text="${board[0]}"></td>
+            <td th:text="${board[1]}"></td>
+            <td th:text="${board[2]}"></td>
+        </tr>
+        <tr>
+            <td th:text="${board[3]}"></td>
+            <td th:text="${board[4]}"></td>
+            <td th:text="${board[5]}"></td>
+        </tr>
+        <tr>
+            <td th:text="${board[6]}"></td>
+            <td th:text="${board[7]}"></td>
+            <td th:text="${board[8]}"></td>
+        </tr>
+    </table>
 </body>
 
 </html>
